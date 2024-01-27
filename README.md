@@ -13,10 +13,33 @@ This iOS app, built in Swift, allows users to capture video and audio using thei
 - **Firebase Database:** Save session videos, duration, and user-defined tags into an Firebase database.
 - **Recording Management:** Review recorded sessions with ease.
 
+
 ## Installation
-1. Clone or download the repository.
-2. Open the project in Xcode.
-3. Build and run the app on a compatible iOS device.
+Follow these steps to set up the project on your local machine:
+
+1. **Clone or Download the Repository:**
+   - Use Git to clone the repo or download the ZIP file directly from the repository page.
+
+2. **Install CocoaPods (if not already installed):**
+   - CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. If you haven't installed CocoaPods yet, open your terminal and run:
+     ```
+     sudo gem install cocoapods
+     ```
+
+3. **Install Dependencies with CocoaPods:**
+   - Navigate to your project directory in the terminal. This is where the `Podfile` is located.
+   - Run the following command to install the required pods:
+     ```
+     pod install
+     ```
+
+4. **Open the Project in Xcode:**
+   - Open the `.xcworkspace` file, not the `.xcodeproj` file, to ensure all the pod dependencies are correctly linked.
+
+5. **Build and Run the App:**
+   - Select a compatible iOS device.
+   - Press the 'Run' button in Xcode to build and run the application on your selected device or simulator.
+
 
 ## Usage
 
