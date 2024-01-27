@@ -1,0 +1,23 @@
+{
+  "name": "ARCapture",
+  "version": "0.1.2",
+  "summary": "Utility allows to capture videos from ARKit scene and export to Photos app.",
+  "homepage": "https://gitlab.com/seriyvolk83/ARCapture",
+  "license": {
+    "type": "MIT"
+  },
+  "authors": {
+    "seriyvolk83": "volk@frgroup.ru"
+  },
+  "requires_arc": true,
+  "swift_versions": "5.2",
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://gitlab.com/seriyvolk83/ARCapture.git",
+    "tag": "0.1.2"
+  },
+  "source_files": "Source/*.swift",
+  "swift_version": "5.2"
+}
