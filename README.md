@@ -1,5 +1,8 @@
 # MoodMe - iOS ARKit Mustache Video App
 
+## Demo Video
+Watch a live demo of the app: [App Demo](https://youtu.be/v5zQu7ZcEGs).
+
 ## Overview
 This iOS app, built in Swift, allows users to capture video and audio using their device's camera, add a mustache to their face in real-time using ARKit, and save these videos with metadata into an Firebase database. Users can choose from a variety of mustache styles and tag their recordings.
 
@@ -32,6 +35,5 @@ This iOS app, built in Swift, allows users to capture video and audio using thei
 - **Firebase:** Firebase is used for efficient data management and retrieval.
 - **ARKit for Mustache Overlay:** Utilizes ARKit for real-time facial recognition and overlay.
 
-## Demo Video
-Watch a live demo of the app: [App Demo](https://youtu.be/v5zQu7ZcEGs).
+
 
